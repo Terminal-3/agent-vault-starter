@@ -43,3 +43,7 @@ cargo build --target wasm32-wasip2 --release
 The host interfaces in `wit/deps/` are vendored from the Trinity release `testnet-v1.0.12`
 (`host:interfaces@2.4.0`, `host:tenant@2.0.0`), the imports of the `tenant-base` world. Re-vendor
 them from the release you deploy to if it changes.
+
+## License
+
+Apache-2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
